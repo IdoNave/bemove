@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F390DC19F7B1D900F9B232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F390DB19F7B1D900F9B232 /* AppDelegate.swift */; };
+		05F390DE19F7B1D900F9B232 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F390DD19F7B1D900F9B232 /* ViewController.swift */; };
+		05F390E119F7B1D900F9B232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F390DF19F7B1D900F9B232 /* Main.storyboard */; };
+		05F390E319F7B1D900F9B232 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F390E219F7B1D900F9B232 /* Images.xcassets */; };
+		05F390E619F7B1D900F9B232 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F390E419F7B1D900F9B232 /* LaunchScreen.xib */; };
+		05F390F219F7B1DA00F9B232 /* bemoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F390F119F7B1DA00F9B232 /* bemoveTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05F390EC19F7B1DA00F9B232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F390CE19F7B1D900F9B232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F390D519F7B1D900F9B232;
+			remoteInfo = bemove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F390D619F7B1D900F9B232 /* bemove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bemove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F390DA19F7B1D900F9B232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F390DB19F7B1D900F9B232 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05F390DD19F7B1D900F9B232 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05F390E019F7B1D900F9B232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05F390E219F7B1D900F9B232 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05F390E519F7B1D900F9B232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		05F390EB19F7B1DA00F9B232 /* bemoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bemoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F390F019F7B1DA00F9B232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F390F119F7B1DA00F9B232 /* bemoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bemoveTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F390D319F7B1D900F9B232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F390E819F7B1DA00F9B232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F390CD19F7B1D900F9B232 = {
+			isa = PBXGroup;
+			children = (
+				05F390D819F7B1D900F9B232 /* bemove */,
+				05F390EE19F7B1DA00F9B232 /* bemoveTests */,
+				05F390D719F7B1D900F9B232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F390D719F7B1D900F9B232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F390D619F7B1D900F9B232 /* bemove.app */,
+				05F390EB19F7B1DA00F9B232 /* bemoveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F390D819F7B1D900F9B232 /* bemove */ = {
+			isa = PBXGroup;
+			children = (
+				05F390DB19F7B1D900F9B232 /* AppDelegate.swift */,
+				05F390DD19F7B1D900F9B232 /* ViewController.swift */,
+				05F390DF19F7B1D900F9B232 /* Main.storyboard */,
+				05F390E219F7B1D900F9B232 /* Images.xcassets */,
+				05F390E419F7B1D900F9B232 /* LaunchScreen.xib */,
+				05F390D919F7B1D900F9B232 /* Supporting Files */,
+			);
+			path = bemove;
+			sourceTree = "<group>";
+		};
+		05F390D919F7B1D900F9B232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F390DA19F7B1D900F9B232 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05F390EE19F7B1DA00F9B232 /* bemoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				05F390F119F7B1DA00F9B232 /* bemoveTests.swift */,
+				05F390EF19F7B1DA00F9B232 /* Supporting Files */,
+			);
+			path = bemoveTests;
+			sourceTree = "<group>";
+		};
+		05F390EF19F7B1DA00F9B232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F390F019F7B1DA00F9B232 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F390D519F7B1D900F9B232 /* bemove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F390F519F7B1DA00F9B232 /* Build configuration list for PBXNativeTarget "bemove" */;
+			buildPhases = (
+				05F390D219F7B1D900F9B232 /* Sources */,
+				05F390D319F7B1D900F9B232 /* Frameworks */,
+				05F390D419F7B1D900F9B232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bemove;
+			productName = bemove;
+			productReference = 05F390D619F7B1D900F9B232 /* bemove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05F390EA19F7B1DA00F9B232 /* bemoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F390F819F7B1DA00F9B232 /* Build configuration list for PBXNativeTarget "bemoveTests" */;
+			buildPhases = (
+				05F390E719F7B1DA00F9B232 /* Sources */,
+				05F390E819F7B1DA00F9B232 /* Frameworks */,
+				05F390E919F7B1DA00F9B232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F390ED19F7B1DA00F9B232 /* PBXTargetDependency */,
+			);
+			name = bemoveTests;
+			productName = bemoveTests;
+			productReference = 05F390EB19F7B1DA00F9B232 /* bemoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F390CE19F7B1D900F9B232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nave, Ido";
+				TargetAttributes = {
+					05F390D519F7B1D900F9B232 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					05F390EA19F7B1DA00F9B232 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 05F390D519F7B1D900F9B232;
+					};
+				};
+			};
+			buildConfigurationList = 05F390D119F7B1D900F9B232 /* Build configuration list for PBXProject "bemove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F390CD19F7B1D900F9B232;
+			productRefGroup = 05F390D719F7B1D900F9B232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F390D519F7B1D900F9B232 /* bemove */,
+				05F390EA19F7B1DA00F9B232 /* bemoveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F390D419F7B1D900F9B232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F390E119F7B1D900F9B232 /* Main.storyboard in Resources */,
+				05F390E619F7B1D900F9B232 /* LaunchScreen.xib in Resources */,
+				05F390E319F7B1D900F9B232 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F390E919F7B1DA00F9B232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F390D219F7B1D900F9B232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F390DE19F7B1D900F9B232 /* ViewController.swift in Sources */,
+				05F390DC19F7B1D900F9B232 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F390E719F7B1DA00F9B232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F390F219F7B1DA00F9B232 /* bemoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F390ED19F7B1DA00F9B232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F390D519F7B1D900F9B232 /* bemove */;
+			targetProxy = 05F390EC19F7B1DA00F9B232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05F390DF19F7B1D900F9B232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F390E019F7B1D900F9B232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05F390E419F7B1D900F9B232 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F390E519F7B1D900F9B232 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F390F319F7B1DA00F9B232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05F390F419F7B1DA00F9B232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F390F619F7B1DA00F9B232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bemove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05F390F719F7B1DA00F9B232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bemove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05F390F919F7B1DA00F9B232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = bemoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bemove.app/bemove";
+			};
+			name = Debug;
+		};
+		05F390FA19F7B1DA00F9B232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = bemoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bemove.app/bemove";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F390D119F7B1D900F9B232 /* Build configuration list for PBXProject "bemove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F390F319F7B1DA00F9B232 /* Debug */,
+				05F390F419F7B1DA00F9B232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F390F519F7B1DA00F9B232 /* Build configuration list for PBXNativeTarget "bemove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F390F619F7B1DA00F9B232 /* Debug */,
+				05F390F719F7B1DA00F9B232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05F390F819F7B1DA00F9B232 /* Build configuration list for PBXNativeTarget "bemoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F390F919F7B1DA00F9B232 /* Debug */,
+				05F390FA19F7B1DA00F9B232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F390CE19F7B1D900F9B232 /* Project object */;
+}
